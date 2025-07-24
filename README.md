@@ -1,3 +1,4 @@
+
 # 💰 Ahorra - Personal Finance Management System
 
 A comprehensive full-stack TypeScript application for managing personal finances, built with React and Node.js.
@@ -44,30 +45,6 @@ A comprehensive full-stack TypeScript application for managing personal finances
 
 ## 📁 Project Structure
 
-```
-ahorra/
-├── frontend/          # React TypeScript frontend
-│   ├── src/
-│   │   ├── components/    # React components
-│   │   ├── context/       # React context providers
-│   │   ├── hooks/         # Custom React hooks
-│   │   ├── types/         # TypeScript type definitions
-│   │   └── utils/         # Utility functions
-│   ├── public/            # Static assets
-│   └── package.json
-├── backend/           # Node.js TypeScript backend
-│   ├── src/
-│   │   ├── controllers/   # Route controllers
-│   │   ├── middleware/    # Express middleware
-│   │   ├── models/        # Database models
-│   │   ├── routes/        # API routes
-│   │   ├── services/      # Business logic
-│   │   ├── types/         # TypeScript types
-│   │   └── utils/         # Utility functions
-│   └── package.json
-├── shared/            # Shared types and utilities
-└── docker-compose.yml # Development environment
-```
 
 ## 🚀 Getting Started
 
@@ -79,40 +56,16 @@ ahorra/
 ### Installation
 
 1. **Clone the repository**
-   ```bash
-   git clone https://github.com/gopisankar-id17/Ahorra.git
-   cd Ahorra
-   ```
+   
 
 2. **Install dependencies**
-   ```bash
-   # Install frontend dependencies
-   cd frontend
-   npm install
-
-   # Install backend dependencies
-   cd ../backend
-   npm install
-   ```
+ 
 
 3. **Set up environment variables**
-   ```bash
-   # Backend environment
-   cd backend
-   cp .env.example .env
-   # Edit .env with your database credentials
-   ```
+   
 
 4. **Start the development servers**
-   ```bash
-   # Terminal 1 - Backend
-   cd backend
-   npm run dev
-
-   # Terminal 2 - Frontend
-   cd frontend
-   npm start
-   ```
+ 
 
 5. **Access the application**
    - Frontend: `http://localhost:3000`
@@ -154,28 +107,10 @@ ahorra/
 
 ## 🧪 Testing
 
-```bash
-# Frontend tests
-cd frontend
-npm test
-
-# Backend tests
-cd backend
-npm test
-```
 
 ## 🐳 Docker Development
 
-```bash
-# Start all services
-docker-compose up -d
 
-# View logs
-docker-compose logs -f
-
-# Stop services
-docker-compose down
-```
 
 ## 🤝 Contributing
 
@@ -202,3 +137,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 **Made with ❤️ for better financial management**
+=======
+Ahorra => “Your simple path to smarter savings.”
+
+Ahorra is a minimalist personal finance manager that helps you track expenses, manage budgets, and build healthy financial habits with ease. Stay organized, visualize your spending, and save smarter—one step at a time.
+
