@@ -1,0 +1,317 @@
+.dashboard {
+  min-height: 100vh;
+  background: #f8fafc;
+}
+
+.dashboard-header {
+  background: white;
+  border-bottom: 1px solid #e2e8f0;
+  padding: 1rem 2rem;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header-content h1 {
+  color: #1a202c;
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.logout-btn {
+  background: #e53e3e;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+
+.logout-btn:hover {
+  background: #c53030;
+}
+
+.dashboard-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  display: grid;
+  gap: 2rem;
+}
+
+/* Balance Section */
+.balance-section {
+  display: grid;
+  gap: 1rem;
+}
+
+.balance-card {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.balance-card h2 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+.balance-amount {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.income-expense-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+  margin: 0 0 0.5rem 0;
+  color: #4a5568;
+  font-size: 1rem;
+}
+
+.amount {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.amount.income {
+  color: #38a169;
+}
+
+.amount.expense {
+  color: #e53e3e;
+}
+
+/* Transactions Section */
+.transactions-section {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.transactions-section h2 {
+  margin: 0 0 1rem 0;
+  color: #1a202c;
+}
+
+.transactions-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.transaction-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  transition: background 0.2s;
+}
+
+.transaction-item:hover {
+  background: #f7fafc;
+}
+
+.transaction-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.transaction-category {
+  font-weight: 600;
+  color: #1a202c;
+}
+
+.transaction-description {
+  font-size: 0.875rem;
+  color: #718096;
+}
+
+.transaction-amount {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.transaction-amount.income {
+  color: #38a169;
+}
+
+.transaction-amount.expense {
+  color: #e53e3e;
+}
+
+/* Budget Section */
+.budget-section {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.budget-section h2 {
+  margin: 0 0 1rem 0;
+  color: #1a202c;
+}
+
+.budget-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.budget-item {
+  padding: 1rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+}
+
+.budget-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.budget-category {
+  font-weight: 600;
+  color: #1a202c;
+}
+
+.budget-amounts {
+  font-weight: 500;
+  color: #4a5568;
+}
+
+.budget-progress-bar {
+  height: 8px;
+  background: #e2e8f0;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 0.5rem;
+}
+
+.budget-progress-fill {
+  height: 100%;
+  transition: width 0.3s ease;
+}
+
+.budget-remaining {
+  font-size: 0.875rem;
+  color: #718096;
+}
+
+/* Quick Actions */
+.quick-actions {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.quick-actions h2 {
+  margin: 0 0 1rem 0;
+  color: #1a202c;
+}
+
+.action-buttons {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.action-btn {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.action-btn.primary {
+  background: #4299e1;
+  color: white;
+}
+
+.action-btn.primary:hover {
+  background: #3182ce;
+}
+
+.action-btn.secondary {
+  background: #edf2f7;
+  color: #4a5568;
+  border: 1px solid #e2e8f0;
+}
+
+.action-btn.secondary:hover {
+  background: #e2e8f0;
+}
+
+/* Loading States */
+.dashboard-loading,
+.dashboard-error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 1.2rem;
+  color: #4a5568;
+}
+
+.spinner {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .dashboard-content {
+    padding: 1rem;
+  }
+  
+  .income-expense-cards {
+    grid-template-columns: 1fr;
+  }
+  
+  .action-buttons {
+    grid-template-columns: 1fr;
+  }
+  
+  .balance-amount {
+    font-size: 2rem;
+  }
+}
