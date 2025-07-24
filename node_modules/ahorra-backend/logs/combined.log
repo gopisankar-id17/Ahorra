@@ -1,0 +1,6 @@
+{"level":"info","message":"🚀 Ahorra API server running on port 5000","service":"ahorra-backend","timestamp":"2025-07-24 20:23:45"}
+{"level":"info","message":"📊 Environment: development","service":"ahorra-backend","timestamp":"2025-07-24 20:23:45"}
+{"level":"info","message":"🌐 CORS enabled for: http://localhost:3000","service":"ahorra-backend","timestamp":"2025-07-24 20:23:45"}
+{"level":"info","message":"🚀 Ahorra API server running on port 5000","service":"ahorra-backend","timestamp":"2025-07-24 22:09:50"}
+{"level":"info","message":"📊 Environment: development","service":"ahorra-backend","timestamp":"2025-07-24 22:09:50"}
+{"level":"info","message":"🌐 CORS enabled for: http://localhost:3000","service":"ahorra-backend","timestamp":"2025-07-24 22:09:50"}
